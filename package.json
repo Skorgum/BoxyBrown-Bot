@@ -1,0 +1,23 @@
+{
+  "name": "boxybrown-bot",
+  "version": "1.0.0",
+  "description": "Discord Reminder Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Skorgum/BoxyBrown-Bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Skorgum/BoxyBrown-Bot/issues"
+  },
+  "homepage": "https://github.com/Skorgum/BoxyBrown-Bot#readme",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "moment": "^2.24.0"
+  }
+}
