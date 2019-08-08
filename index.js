@@ -2,10 +2,9 @@ require("dotenv").config();
 const keys = require("./keys.js");
 const moment = require("moment");
 const Discord = require('discord.js');
- const client = new Discord.Client();
-const token = new Token
+const client = new Discord.Client();
 
-client.on('ready', () => {
+client.once('ready', () => {
  console.log(`Logged in as ${client.user.tag}!`);
  });
 
