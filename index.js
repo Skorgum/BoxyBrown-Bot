@@ -1,5 +1,6 @@
 require("dotenv").config();
 const keys = require("./keys.js");
+const config = require("./config.json")
 const moment = require("moment");
 const Discord = require('discord.js');
 const client = new Discord.Client();
